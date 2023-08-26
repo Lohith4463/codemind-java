@@ -1,10 +1,9 @@
 import java.util.Scanner;
-public class bhanu{
-    public static void main(String [] args){
-        Scanner sc=new Scanner(System.in);
-        char a=sc.next().charAt(0);
-        int b=a;
-        System.out.print(b);
+
+public class lohi {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char ch = sc.next().charAt(0); // Corrected the syntax for accessing the character at index 0
+        System.out.print((int) ch); // Corrected the syntax for type casting char to int
     }
-    
 }
